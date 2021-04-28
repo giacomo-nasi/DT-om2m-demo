@@ -1,0 +1,102 @@
+[2021-04-28 12:10:09,663 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Starting Data Mapper
+[2021-04-28 12:10:09,663 INFO] - org.eclipse.om2m.datamapping.jaxb.Activator 
+Registering XML Mapper Service..
+[2021-04-28 12:10:09,674 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register HTTP RestClientService..
+[2021-04-28 12:10:09,686 INFO] - org.eclipse.om2m.binding.http.Activator 
+HTTP RestClientService is registered.
+[2021-04-28 12:10:09,687 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register SSL RestClientService..
+[2021-04-28 12:10:09,694 INFO] - org.eclipse.om2m.binding.http.Activator 
+SSL RestClientService is registered.
+[2021-04-28 12:10:10,428 INFO] - org.eclipse.om2m.binding.websocket.Activator 
+Start websocket binding
+[2021-04-28 12:10:10,435 INFO] - org.eclipse.om2m.binding.websocket.Activator 
+Start websocket server
+[2021-04-28 12:10:10,436 INFO] - org.eclipse.om2m.binding.websocket.Activator 
+Register HTTP RestClientService..
+[2021-04-28 12:10:10,440 INFO] - org.eclipse.om2m.binding.websocket.Activator 
+HTTP RestClientService is registered.
+[2021-04-28 12:10:11,117 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Starting Persistence JPA plugin...
+[2021-04-28 12:10:11,127 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Initializing Database...
+[2021-04-28 12:10:11,131 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+Creating new EntityManagerFactory...
+[2021-04-28 12:10:11,156 INFO] - org.eclipse.om2m.binding.http.Activator 
+HttpService discovered
+[2021-04-28 12:10:11,158 INFO] - org.eclipse.om2m.binding.http.Activator 
+Register / context
+[2021-04-28 12:10:11,402 INFO] - org.eclipse.om2m.core.Activator 
+Starting CSE...
+[2021-04-28 12:10:11,405 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: http
+[2021-04-28 12:10:11,405 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: https
+[2021-04-28 12:10:11,405 INFO] - org.eclipse.om2m.core.Activator 
+Rest client service discovered. Protocol: ws
+[2021-04-28 12:10:11,410 INFO] - org.eclipse.om2m.webapp.dashboard.Activator 
+HttpService discovered
+[2021-04-28 12:10:11,410 INFO] - org.eclipse.om2m.webapp.dashboard.Activator 
+Register /web http context
+[2021-04-28 12:10:11,427 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.json.Activator 
+HttpService discovered
+[2021-04-28 12:10:11,428 INFO] - org.eclipse.om2m.webapp.resourcesbrowser.json.Activator 
+Register /webpage http context
+[2021-04-28 12:10:12,637 INFO] - org.eclipse.om2m.persistence.eclipselink.internal.DBServiceJPAImpl 
+DataBase initialized.
+[2021-04-28 12:10:12,651 INFO] - org.eclipse.om2m.persistence.eclipselink.Activator 
+Registering Database (JPA-EL) Service
+[2021-04-28 12:10:12,661 INFO] - org.eclipse.om2m.core.Activator 
+DataBase persistence service discovered
+[2021-04-28 12:10:12,664 INFO] - org.eclipse.om2m.core.thread.CoreExecutor 
+Creating thread pool with corePoolSize=10 & maximumSize=100
+[2021-04-28 12:10:12,666 INFO] - org.eclipse.om2m.core.CSEInitializer 
+Initializating the cseBase
+[2021-04-28 12:10:12,740 INFO] - org.eclipse.om2m.core.Activator 
+Registering CseService...
+[2021-04-28 12:10:12,749 INFO] - org.eclipse.om2m.binding.http.Activator 
+CseService discovered
+[2021-04-28 12:10:12,749 INFO] - org.eclipse.om2m.binding.websocket.Activator 
+CseService discovered
+[2021-04-28 12:10:12,750 INFO] - org.eclipse.om2m.core.Activator 
+CSE Started
+[2021-04-28 12:10:27,223 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+----------------------------------------------------------------------------------------------
+[2021-04-28 12:10:27,223 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Secured communication:false
+[2021-04-28 12:10:27,235 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Built RequestPrimitive: RequestPrimitive [
+ ]
+[2021-04-28 12:10:27,236 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Verifying certificate for authentication..
+[2021-04-28 12:10:27,236 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+No certificate provided for authentication
+[2021-04-28 12:10:27,239 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Verify token for authentication..
+[2021-04-28 12:10:27,241 INFO] - org.eclipse.om2m.binding.http.RestHttpServlet 
+Accept header: application/json
+[2021-04-28 12:10:27,241 INFO] - org.eclipse.om2m.core.router.Router 
+Received request in Router: RequestPrimitive [
+ operation=2
+ to=/server
+ from=Cae-admin
+ resultContent=5
+ returnContentType=application/json
+ requestContentType=application/xml
+ queryStrings={rcn=[5]}
+ ]
+[2021-04-28 12:10:27,476 INFO] - org.eclipse.om2m.core.router.Router 
+Token authenticaton success
+[2021-04-28 12:10:27,490 INFO] - org.eclipse.om2m.core.router.Router 
+OM2M exception caught in Router: application/xml is not supported.
+[2021-04-28 12:10:27,490 INFO] - org.eclipse.om2m.core.router.Router 
+Response in Router= ResponsePrimitive [
+ responseStatusCode=5001
+ to=Cae-admin
+ from=/server
+ contentType=text/plain,
+ content (Only first 1000 caracters)=
+ application/xml is not supported.
+]
